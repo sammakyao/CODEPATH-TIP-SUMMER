@@ -111,3 +111,16 @@ def counter(stop):
 counter(10)
 
 '''
+
+# 12 sum of 1 to 10
+
+'''
+def sum_ten():
+    return sum(range(1, 10 + 1))
+
+output = sum_ten()
+print(output)
+#result = sum_ten()
+#print(result)
+
+'''
