@@ -87,5 +87,19 @@ result = get_last([])
 print(result)
 
 '''
+# 9 - write a function get_first() that takes in a list as a parameter and returns the first item in the list. return None if empty.
+
+'''
+
+def get_first(lst):
+  if lst == []:
+    return None
+  else:
+    return lst[0]
+
+result = get_first([3,1,6,7,5])
+print(result)
+
+'''
 
 
