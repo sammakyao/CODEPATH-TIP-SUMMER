@@ -177,3 +177,16 @@ def greet_user(name):
 greet_user("Michael")
 
 '''
+
+
+# Write a function difference() that returns the difference between two integers a and b (b should be subtracted from a).
+
+
+'''
+def difference(a, b):
+  return b - a
+
+output = difference(3, 8)
+print(output)
+
+'''
