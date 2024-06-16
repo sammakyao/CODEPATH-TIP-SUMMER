@@ -147,4 +147,15 @@ print(sum)
 
 '''
 
-# 15 n
+# 15 - Negative numbers prints
+
+def print_negatives(lst):
+  # for a certain number i in lst
+  for i in lst:
+    # if that certain number i is less than 0
+    if i < 0:
+      # print those numbers
+      print(i)
+    else:
+      return None
+print_negatives([1,2,3,5])
