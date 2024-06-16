@@ -136,3 +136,15 @@ print(sum)
 
 '''
 
+# 14 - total sum in range
+
+'''
+def sum_range(start, stop):
+  return sum(range(start, stop + 1))
+
+sum = sum_range(3,9)
+print(sum)
+
+'''
+
+# 15 n
