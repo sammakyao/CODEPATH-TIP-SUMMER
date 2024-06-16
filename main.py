@@ -74,4 +74,18 @@ blackjack(10)
 
 '''
 
-# 
+# 10- last item, write a function that takes in a list as parameter, returns last item in the list. 
+
+'''
+def get_last(lst):
+  if lst == []:
+    return None
+  else: 
+    return lst[-1] 
+    
+result = get_last([])
+print(result)
+
+'''
+
+
