@@ -124,3 +124,15 @@ print(output)
 #print(result)
 
 '''
+
+# 13 - total sum given range inclusive
+
+'''
+def sum_positive_range(stop):
+  return sum(range(1, stop + 1))
+
+sum = sum_positive_range(6)
+print(sum)
+
+'''
+
