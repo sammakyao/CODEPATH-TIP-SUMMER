@@ -102,4 +102,12 @@ print(result)
 
 '''
 
+# 11 - counter, function that uses range function to print numbers between 1 and a given stop value inclusive 
 
+'''
+def counter(stop):
+  for i in range(1, stop + 1):
+    print(i)
+counter(10)
+
+'''
