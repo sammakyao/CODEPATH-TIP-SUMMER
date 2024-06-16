@@ -56,7 +56,7 @@ print(time)
 
 # Blackjack problem 
 
-
+'''
 def blackjack(score):
 	if score < 17:
 	    print("Hit Me!")
@@ -72,6 +72,6 @@ blackjack(19)
 blackjack(21)
 blackjack(10)
 
-
+'''
 
 # 
