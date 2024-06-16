@@ -56,22 +56,22 @@ print(time)
 
 # Blackjack problem 
 
-'''
+
 def blackjack(score):
-  if score == 21:
-    print("Blackjack!")
-  elif score > 21:
-    print("Bust!")
-  elif score >= 17 and score <= 21:
-    print("Nice hand")
-  elif score < 17:
-    print("Hit me!")
+	if score < 17:
+	    print("Hit Me!")
+	elif score < 21:
+	    print("Nice hand!")
+	elif score >= 21:
+	    print("Bust!")
+	else:
+	    print("Blackjack!")
 
 blackjack(24)
 blackjack(19)
 blackjack(21)
 blackjack(10)
 
-'''
+
 
 # 
