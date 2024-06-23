@@ -307,6 +307,25 @@ print(new_lst)
 
 '''
 
+# countdown
+
+'''
+Understand
+- wants to create fn (m,n) and prints m down to n. 
+- if its countdown(5,1) output should be 5,4,3,2,1
+Plan:
+- create a function countdown(m, n)
+- print(range(5, 1 + 1))
+'''
+
+'''
+
+def countdown(m, n):
+  for num in range(m, n-1, -1):
+    print(num)
+countdown(5,1)
+
+'''
 
 
 
