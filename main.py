@@ -208,6 +208,25 @@ print(list)
 '''
 
 
+# sleep assesment 
+
+'''
+def sleep_assesment(hours):
+  if (hours >= 8) and (hours <= 10):
+    print("You got a good night's rest")
+  elif hours > 10:
+    print("You're a sleep prodigy")
+  else:
+    print("Oof, go back to bed!")
+
+sleep_assesment(10)
+sleep_assesment(4)
+sleep_assesment(12)
+sleep_assesment(9)
+
+'''
+
+
 
 
 
