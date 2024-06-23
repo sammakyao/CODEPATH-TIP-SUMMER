@@ -172,3 +172,13 @@ greet_user("Michael")
 
 '''
 
+# calculate the difference 
+# function difference() that returns diff between a and b (b-a)
+
+def difference(a,b):
+  return b - a
+
+diff = difference(3,8)
+print(diff)
+
+
