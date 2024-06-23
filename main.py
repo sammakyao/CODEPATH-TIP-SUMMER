@@ -226,6 +226,25 @@ sleep_assesment(9)
 
 '''
 
+# calculate tip
+
+def calculate_tip(bill, service_quality):
+  if service_quality == "poor":
+    return (0.1 * bill)
+  elif service_quality == "average":
+    return (0.15 * bill)
+  elif service_quality == "excellent":
+    return (0.2 * bill)
+  else:
+    return None
+
+tip1 = calculate_tip(44.53, "average")
+print(tip1)
+tip2 = calculate_tip(44.53, "poor")
+print(tip2)
+tip3 = calculate_tip(44.53, "excellent")
+print(tip3)
+
 
 
 
