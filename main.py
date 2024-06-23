@@ -265,6 +265,7 @@ rock_paper_scissors("rock", "paper")
 rock_paper_scissors("paper", "rock")
 
 '''
+'''
 
 # re-organizing the list
 
@@ -277,6 +278,7 @@ def halve_lst(lst):
 
 print(halve_lst([2,4,6,8]))
 
+'''
 
 
 
