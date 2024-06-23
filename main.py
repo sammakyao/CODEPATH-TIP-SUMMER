@@ -190,5 +190,7 @@ output = difference(3, 8)
 print(output)
 
 '''
+# Calculate the difference
+
 
 
