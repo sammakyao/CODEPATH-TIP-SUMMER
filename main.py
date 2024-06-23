@@ -174,11 +174,42 @@ greet_user("Michael")
 
 # calculate the difference 
 # function difference() that returns diff between a and b (b-a)
-
+'''
 def difference(a,b):
   return b - a
 
 diff = difference(3,8)
 print(diff)
 
+'''
+# concatenation nums[], concatenate_list(nums), returns ans of len 2n where
+# ans[i] == nums[i] and ans [i + n] == nums[i] for 0 <= i < n. ans is the concatenation of two nums list
 
+'''
+def concatenate_list(nums):
+  ans = [] # not necessary to much process
+  for n in nums:
+    return nums + nums # this is conceptually not correct
+list = concatenate_list([1,2,3,4, 5])
+print(list)
+
+'''
+
+'''
+# here is a more efficient
+
+def concatenate_list(nums):
+  return nums + nums
+
+list = concatenate_list([1,2,3,4, 5])
+print(list)
+
+
+'''
+
+
+
+
+
+
+  
