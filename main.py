@@ -190,7 +190,9 @@ output = difference(3, 8)
 print(output)
 
 '''
-# Calculate the difference
+# list concatenation
+# create function concatenate_list(), returns ans of len 2n, ans[i] == nums[i]
+# 
 
 
 
