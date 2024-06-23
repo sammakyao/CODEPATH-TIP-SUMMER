@@ -270,10 +270,10 @@ rock_paper_scissors("paper", "rock")
 # re-organizing the list
 
 def halve_lst(lst):
-  result = []
-  for number in lst:
-    halved = number/2
-    result.append(halved)
+  result = [] # empty list that the new halved list is going to sit
+  for number in lst: # for a certain number in that list
+    halved = number/2 # divide that number by 2, this will be the halved
+    result.append(halved) # add that halved to our new list called result
   return result
 
 print(halve_lst([2,4,6,8]))
