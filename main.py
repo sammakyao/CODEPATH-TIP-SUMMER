@@ -161,15 +161,9 @@ def print_negatives(lst):
 print_negatives([1,2,3,5])
 
 '''
-'''
-Write a function greet_user() that takes in a string name as a parameter and prints "Hello <name>".
 
-def greet_user(name):
-    pass
-Example Input: Michael
-Example Output: Hello Michael
+# Write a function greet_user() that takes in a string name as a parameter and prints "Hello <name>".
 
-'''
 '''
 def greet_user(name):
   print("Hello " + name)
@@ -177,22 +171,4 @@ def greet_user(name):
 greet_user("Michael")
 
 '''
-
-
-# Write a function difference() that returns the difference between two integers a and b (b should be subtracted from a).
-
-
-'''
-def difference(a, b):
-  return b - a
-
-output = difference(3, 8)
-print(output)
-
-'''
-# list concatenation
-# create function concatenate_list(), returns ans of len 2n, ans[i] == nums[i]
-# 
-
-
 
