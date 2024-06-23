@@ -225,7 +225,7 @@ sleep_assesment(12)
 sleep_assesment(9)
 
 '''
-
+'''
 # calculate tip
 
 def calculate_tip(bill, service_quality):
@@ -245,9 +245,25 @@ print(tip2)
 tip3 = calculate_tip(44.53, "excellent")
 print(tip3)
 
+'''
 
+# rock, paper, scissors
 
+'''
+def rock_paper_scissors(player1, player2):
+  if player1 == player2:
+    print("It's a tie!")
+  elif (player1 == "rock" and player2 == "scissors") or (player1 == "scissors" and player2 == "paper") or (player1 == "paper" and player2 == "rock"):
+    print("Player 1 wins!")
+  elif (player2 == "rock" and player1 == "scissors") or (player2 == "scissors" and player1 == "paper") or (player2 == "paper" and player1 == "rock"):
+    print("Player 2 wins!")
 
+rock_paper_scissors("rock", "rock")
+rock_paper_scissors("scissors", "rock")
+rock_paper_scissors("rock", "scissors")
+rock_paper_scissors("rock", "paper")
+rock_paper_scissors("paper", "rock")
 
+'''
 
   
