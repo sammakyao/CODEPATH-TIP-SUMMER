@@ -280,9 +280,32 @@ print(halve_lst([2,4,6,8]))
 
 '''
 
+# threshold function
 
+'''
+- write a function, set an empty list list_new = [12], 
+- for loop: for num in lst, if num > threshold, 
+- list_new.append(num)
+- return list_new
+'''
 
+'''
 
+def above_threshold(lst, threshold):
+  list_new = []
+  for num in lst:
+    if num > threshold:
+      list_new.append(num)
+  return list_new
+
+#print(above_threshold([8,2,13,11,4,10,14], 10))
+#new_lst = above_threshold(lst, 10)
+#print(new_lst)
+lst = [8,2,13,11,4,10,14]
+new_lst = above_threshold(lst, 10)
+print(new_lst)
+
+'''
 
 
 
